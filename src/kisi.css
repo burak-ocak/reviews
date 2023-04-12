@@ -1,0 +1,45 @@
+.kok-etiket{
+    text-align: center;
+    width: 50rem;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 10px 10px 15px  rgb(110, 107, 107);
+}
+
+.kok-etiket .img{
+    width: 200px;
+    border-radius: 50%;
+    background-color: blue;
+    height: 150px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.img img{
+    position: absolute;
+    left: 0;
+    width: 190px;
+    border-radius: 50%;
+    height: 150px;
+}
+
+.img span{
+    position: absolute;
+    left: 20px;
+}
+
+.surprise{
+    display: block;
+    margin: 10px auto;
+    border: none;
+    background-color: rgb(197, 241, 241);
+    color: rgb(132, 161, 175);
+    transition: 0.4s;
+}
+
+.surprise:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

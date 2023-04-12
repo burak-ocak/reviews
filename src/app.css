@@ -1,0 +1,9 @@
+div{
+    margin-top: 50px;
+}
+
+div .h2{
+    text-align: center;
+    color: rgb(247, 226, 226);
+    font-size: 3rem;
+}
