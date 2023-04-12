@@ -1,6 +1,6 @@
 import "./kisi.css";
 
-function Kisi({ ilkEleman, digerEleman }){
+function Kisi({ ilkEleman, digerEleman, oncekiEleman, randomEleman }){
 
     return(
         <div className="kok-etiket">
@@ -17,9 +17,9 @@ function Kisi({ ilkEleman, digerEleman }){
             </div>
 
             <div className="icons">
-                <button > <i className="fa-solid fa-arrow-left"></i> </button>
+                <button onClick={()=>oncekiEleman(ilkEleman.id)}> <i className="fa-solid fa-arrow-left"></i> </button>
                 <button onClick={()=>digerEleman(ilkEleman.id)}> <i className="fa-solid fa-arrow-right"></i> </button>
-                <button className="surprise">Surprise me</button>
+                <button onClick={()=>randomEleman(ilkEleman.id)} className="surprise">Surprise me</button>
             </div>
         </div>
     )
