@@ -12,9 +12,11 @@ function App(){
 
 
     function digerEleman(id){
-        let yeniEleman = data.filter( ()=>id + 1 )
+        let yeniEleman = data.filter( ()=>id + 1 );
         setIlkEleman(yeniEleman);
     }
+    
+    
 
     console.log(ilkEleman);
     return(

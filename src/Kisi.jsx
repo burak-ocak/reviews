@@ -7,7 +7,7 @@ function Kisi({ ilkEleman, digerEleman }){
 
             <div className="img">
                 <img src={ilkEleman.image} alt="" />
-                <span> <i class="fa-solid fa-quote-left"></i> </span>
+                <span> <i className="fa-solid fa-quote-left"></i> </span>
             </div>
 
             <div className="body">
@@ -17,8 +17,8 @@ function Kisi({ ilkEleman, digerEleman }){
             </div>
 
             <div className="icons">
-                <button > <i class="fa-solid fa-arrow-left"></i> </button>
-                <button onClick={()=>digerEleman(ilkEleman.id)}> <i class="fa-solid fa-arrow-right"></i> </button>
+                <button > <i className="fa-solid fa-arrow-left"></i> </button>
+                <button onClick={()=>digerEleman(ilkEleman.id)}> <i className="fa-solid fa-arrow-right"></i> </button>
                 <button className="surprise">Surprise me</button>
             </div>
         </div>
